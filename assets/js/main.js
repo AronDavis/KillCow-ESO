@@ -13,7 +13,7 @@ var settings = {
 
 		// Transition speed (in ms)
 		// For timing purposes only. It *must* match the transition speed of "#banner > article".
-			speed: 1500,
+			speed: 500, //.5s in CSS
 
 		// Transition delay (in ms)
 			delay: 5000,
@@ -281,7 +281,6 @@ var settings = {
 
 		// Menu.
 			$('#menu')
-				.append('<a href="#menu" class="close"></a>')
 				.appendTo($body)
 				.panel({
 					delay: 500,
