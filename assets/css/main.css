@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(font-awesome.min.css);
+@import url("../fontawesome/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
 /*
@@ -2108,7 +2108,7 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 Free";
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2172,7 +2172,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Font Awesome 5 Free";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2307,10 +2307,14 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 Free";
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+		}
+		
+		.icon.brand:before {
+			font-family: "Font Awesome 5 Brands" !important;
 		}
 
 		.icon > .label {
@@ -3773,7 +3777,7 @@
 					content: "";
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: "Font Awesome 5 Free";
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
@@ -3954,7 +3958,7 @@
 			#menu .close:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Font Awesome 5 Free";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
