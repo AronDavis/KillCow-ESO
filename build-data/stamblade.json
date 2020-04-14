@@ -1,76 +1,88 @@
 {
 	"id": "stamblade",
+	"displayName": "Killcow",
+	"buildType": "pvp",
+	"resourceType": "stamina",
 	"class": "nightblade",
 	"gear": {
 		"head": {
+			"gearType": "armor",
 			"set": "balorgh",
 			"weight": "medium",
 			"trait": "impenetrable",
 			"enchantment": "tri-stat"
 		},
 		"chest": {
+			"gearType": "armor",
 			"set": "new-moon-acolyte",
 			"weight": "heavy",
 			"trait": "impenetrable",
 			"enchantment": "tri-stat"
 		},
 		"shoulders": {
+			"gearType": "armor",
 			"set": "balorgh",
 			"weight": "medium",
 			"trait": "impenetrable",
 			"enchantment": "tri-stat"
 		},
 		"arms": {
+			"gearType": "armor",
 			"set": "new-moon-acolyte",
 			"weight": "medium",
 			"trait": "impenetrable",
 			"enchantment": "tri-stat"
 		},
 		"belt": {
+			"gearType": "armor",
 			"set": "new-moon-acolyte",
 			"weight": "medium",
 			"trait": "impenetrable",
 			"enchantment": "tri-stat"
 		},
 		"legs": {
+			"gearType": "armor",
 			"set": "new-moon-acolyte",
 			"weight": "heavy",
 			"trait": "impenetrable",
 			"enchantment": "tri-stat"
 		},
 		"feet": {
+			"gearType": "armor",
 			"set": "new-moon-acolyte",
 			"weight": "medium",
 			"trait": "impenetrable",
 			"enchantment": "tri-stat"
 		},
 		"necklace": {
+			"gearType": "jewelry",
 			"set": "titanborn-strength",
-			"type": "jewelry",
 			"trait": "impenetrable",
 			"enchantment": "tri-stat"
 		},
-		"ring-1": {
+		"ring1": {
+			"gearType": "jewelry",
 			"set": "titanborn-strength",
-			"type": "jewelry",
 			"trait": "impenetrable",
 			"enchantment": "tri-stat"
 		},
-		"ring-2": {
+		"ring2": {
+			"gearType": "jewelry",
 			"set": "titanborn-strength",
-			"type": "jewelry",
 			"trait": "impenetrable",
 			"enchantment": "tri-stat"
 		},
-		"front-weapon-1": {
+		"frontWeapon1": {
+			"gearType": "weapon",
 			"set": "titanborn-strength",
-			"type": "maul",
+			"weaponType": "maul",
 			"trait": "sharpened",
 			"enchantment": "disease"
 		},
-		"back-weapon-1": {
+		"backWeapon1": {
+			"gearType": "weapon",
 			"set": "titanborn-strength",
-			"type": "bow",
+			"weaponType": "bow",
 			"trait": "infused",
 			"enchantment": "weapon-damage"
 		}
