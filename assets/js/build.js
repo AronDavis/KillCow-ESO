@@ -34,6 +34,28 @@ $(function() {
 		"backWeapon2": "Back Bar Weapon 2"
 	};
 	
+	var buildGearWeightDisplayMap = {
+		"light": "Light",
+		"medium": "Medium",
+		"heavy": "Heavy"
+	}
+	
+	var buildGearTypeDisplayMap = {
+		"jewelry": "Jewelry",
+		"maul": "Maul"
+	}
+	
+	var buildGearTraitDisplayMap = {
+		"impenetrable": "Impenetrable",
+		"sharpened": "Sharpened",
+		"infused": "Infused"
+	}
+	
+	var buildGearEnchantmentDisplayMap = {
+		"tri-stat": "Prismatic Defense (Tri-Stat)",
+		"disease": "Foulness (Disease)"
+	}
+	
 	var buildTypeDisplayMap = {
 		"pvp": "PvP"
 	};
@@ -96,13 +118,13 @@ $(function() {
 		switch(gearData.gearType)
 		{
 			case "armor":
-				weightOrType = gearData.weight;
+				weightOrType = buildGearWeightDisplayMap[gearData.weight];
 				break;
 			case "jewelry":
-				weightOrType = gearData.gearType;
+				weightOrType = buildGearTypeDisplayMap[gearData.gearType];
 				break;
 			case "weapon":
-				weightOrType = gearData.weaponType;
+				weightOrType = buildGearTypeDisplayMap[gearData.weaponType];
 				break;
 		}
 		
@@ -110,8 +132,8 @@ $(function() {
 		buildTableRow.append($(`<td>${buildGearDisplayMap[gearSlot]}</td>`));
 		buildTableRow.append($(`<td>${gearData.set}</td>`));
 		buildTableRow.append($(`<td>${weightOrType}</td>`));
-		buildTableRow.append($(`<td>${gearData.trait}</td>`));
-		buildTableRow.append($(`<td>${gearData.enchantment}</td>`));
+		buildTableRow.append($(`<td>${buildGearTraitDisplayMap[gearData.trait]}</td>`));
+		buildTableRow.append($(`<td>${buildGearEnchantmentDisplayMap[gearData.enchantment]}</td>`));
 		buildTableBody.append(buildTableRow);
 	}
 	
