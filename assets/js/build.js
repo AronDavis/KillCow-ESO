@@ -42,7 +42,8 @@ $(function() {
 	
 	var buildGearTypeDisplayMap = {
 		"jewelry": "Jewelry",
-		"maul": "Maul"
+		"maul": "Maul",
+		"bow": "Bow"
 	}
 	
 	var buildGearTraitDisplayMap = {
